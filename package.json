@@ -2,7 +2,7 @@
   "name": "benchmarking-api",
   "version": "1.0.0",
   "description": "HTTP,  HTTPS benchmarking , load testing",
-  "main": "index.js",
+  "main": "run.js",
   "dependencies": {
     "autocannon": "^4.6.0"
   },
