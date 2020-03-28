@@ -1,0 +1,25 @@
+{
+  "name": "benchmarking-api",
+  "version": "1.0.0",
+  "description": "HTTP,  HTTPS benchmarking , load testing",
+  "main": "index.js",
+  "dependencies": {
+    "autocannon": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushalshit27/api-benchmarking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushalshit27/api-benchmarking/issues"
+  },
+  "homepage": "https://github.com/kushalshit27/api-benchmarking#readme"
+}

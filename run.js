@@ -2,16 +2,9 @@
 
 const autocannon = require('autocannon')
 
+// API to test
 const PORT = 3000
 const url = 'http://localhost:' + PORT
-// const instance = autocannon({
-//   url: 'http://localhost:3000/user',
-//   method: 'POST',
-
-//   connections: 6,
-//   duration: 10,
-// }, console.log)
-
 
 const instance = autocannon({
       url: url,
@@ -43,11 +36,11 @@ const instance = autocannon({
           },
           // we need to stringify the json first
           body: JSON.stringify({
-            firstName: "Kushal",
-            lastName : "Shit",
-            email: "kushal@gmail.com",
-            userName: "kushal",
-            password: "hello@123",
+            firstName: "Cool",
+            lastName : "Name",
+            email: "abc@gmail.com",
+            userName: "cool",
+            password: "Cool##pass",
             role: "ADMIN"
           }),
         //   setupRequest: reqData => {
